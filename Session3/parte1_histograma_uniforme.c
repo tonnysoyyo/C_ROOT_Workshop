@@ -30,7 +30,7 @@ root script_basico.C
 // - TCanvas: Lienzo donde dibujamos.
 // - El histograma se dibuja con Draw().
 
-void histograma_uniforme() {
+void parte1_histograma_uniforme() {
     TH1F *h1 = new TH1F("h1", "Distribucion Uniforme;Valor;Frecuencia", 50, 0, 1);
 
     for (int i = 0; i < 1000; i++) {
